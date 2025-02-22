@@ -1,0 +1,9 @@
+.name {
+  font-weight: 600;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}

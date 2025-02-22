@@ -1,0 +1,15 @@
+.table {
+  width: 500px;
+  border: 1px solid #755575;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  border: 1px solid #755575;
+}
+.tableHead {
+  background-color: aqua;
+}
+.tableLine:nth-child(even) {
+  background-color: rgb(253, 168, 137);
+}

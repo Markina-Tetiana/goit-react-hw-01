@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding-top: 20px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.cardHeader {
+  margin-bottom: 20px;
+}
+.cardImage {
+  width: 200px;
+  border-radius: 100px;
+  background-color: aqua;
+}
+.cardText {
+  color: darkgray;
+}
+.profileList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+}
+.profileListItem {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: calc(100% / 3);
+}
+.text {
+  font-weight: 700;
+}
